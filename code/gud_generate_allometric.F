@@ -235,6 +235,8 @@ C
      &   HOOH_npl_Phi(jp),
      &   HOOH_npl_detox_cost(jp),
      &   HOOH_abiotic_detox,
+     &   HOOH_bacteria_phi,
+     &   HOOH_bacteria_star,
      &   HOOH_quantum_yield
 C
 C mortality

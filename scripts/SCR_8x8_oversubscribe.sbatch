@@ -36,7 +36,7 @@ python  --version
 VALpath=/lustre/isaac/proj/UTK0105/Darwin/GITLAB/gud-gud/verification/UTK_HOOH
 USERpath=/lustre/isaac/scratch/ecarr/runs
 RUN_ID=$SLURM_JOB_ID
-TAG_ID='HOOH'
+TAG_ID='HOOH_BAC'
 DIR_NAME=run_$TAG_ID\_$RUN_ID
 USER_DIR=$USERpath/$DIR_NAME
 RUN_DIR=$VALpath/$DIR_NAME

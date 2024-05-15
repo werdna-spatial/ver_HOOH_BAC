@@ -141,6 +141,8 @@ CCOG]]]
      &    wPIC_sink,
      &    Kdissc,
      &    HOOH_abiotic_detox,
+     &    HOOH_bacteria_phi,
+     &    HOOH_bacteria_star,
      &    HOOH_quantum_yield,
 #ifdef GUD_ALLOW_CARBON
      &    gud_atmos_pCO2,
@@ -249,6 +251,8 @@ CCOG]]]
       _RL wPIC_sink
       _RL Kdissc
       _RL HOOH_abiotic_detox
+      _RL HOOH_bacteria_phi
+      _RL HOOH_bacteria_star
       _RL HOOH_quantum_yield
 #ifdef GUD_ALLOW_CARBON
       _RL gud_atmos_pCO2

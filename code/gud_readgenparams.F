@@ -175,6 +175,8 @@ CCOG]]]
      &    yono2,
      &    depthdenit,
      &    HOOH_abiotic_detox,
+     &    HOOH_bacteria_phi,
+     &    HOOH_bacteria_star,
      &    HOOH_quantum_yield
 
 #ifdef GUD_ALLOW_RADTRANS
@@ -465,6 +467,8 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
       yono2   = fno2/563*4/(1-fno2)*106 _d 0
       
       HOOH_abiotic_detox   = 51234.56789 _d 0
+      HOOH_bacteria_phi = 71234.56789 _d 0
+      HOOH_bacteria_star = 81234.56789 _d 0
       HOOH_quantum_yield   = 61234.56789 _d 0
 
 

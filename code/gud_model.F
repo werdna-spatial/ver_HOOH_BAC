@@ -753,11 +753,15 @@ C
 C      WRITE (*,*) 'EAC HOOH BEFORE', gTr(iHOOH)
 C      WRITE (*,*) 'EAC HOOH_quantum_yield', HOOH_quantum_yield
 C      WRITE (*,*) 'EAC HOOH_abiotic_detox', HOOH_abiotic_detox
+C      WRITE (*,*) 'EAC HOOH_bacteria_phi', HOOH_bacteria_phi
+C      WRITE (*,*) 'EAC HOOH_bacteria_star', HOOH_bacteria_star
 C      WRITE (*,*) 'EAC HOOH_biotic_detox', HOOH_biotic_detox
 C    
       gTr(iHOOH) = gTr(iHOOH) 
      &  + HOOH_quantum_yield*(DOC*PARtot)
      &  - ( HOOH_abiotic_detox * HOOH )
+C We are using the same photoTempFunc for bstar as SYN
+     &  -(HOOH_bacteria_phi*HOOH_bacteria_star*photoTempFunc(3)*HOOH)
      &  - HOOH_biotic_detox
 C
       diags(iP_HOOH) = HOOH_quantum_yield*DOC*PARtot
