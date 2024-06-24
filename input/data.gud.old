@@ -46,11 +46,11 @@
 #
  HOOH_abiotic_detox= 2.31E-7, ! sec-1
 #
-# HOOH_bacteria_phi= 2.22222E-09, ! ml cell-1 sec-1
-# HOOH_bacteria_star=2500.0 ! cell ml-1
+ HOOH_bacteria_phi= 2.22222E-09, ! ml cell-1 sec-1
+ HOOH_bacteria_star=500.0 ! cell ml-1
 #
- HOOH_bacteria_phi= 0.0, ! ml cell-1 sec-1
- HOOH_bacteria_star=0.0 ! cell ml-1
+# HOOH_bacteria_phi= 0.0, ! ml cell-1 sec-1
+# HOOH_bacteria_star=0.0 ! cell ml-1
 #
 #  HOOH_quantum_yield=0.0000011574,
 # HOOH_quantum_yield= 0.00000000015,
@@ -170,12 +170,12 @@
 #  HOOH_grp_detox_cost(:)=1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
 #
 # HOOH production / Kill pro
-  HOOH_grp_Kdam(:)=0.0, 0.0, 0.0, 6.4e-5, 0.0, 0.0, 0.0, 0.0,
-  HOOH_grp_Phi(:)=0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 
-  HOOH_grp_detox_cost(:)=1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
-# HOOH production / Save pro
 #  HOOH_grp_Kdam(:)=0.0, 0.0, 0.0, 6.4e-5, 0.0, 0.0, 0.0, 0.0,
-#  HOOH_grp_Phi(:)=0.0, 0.0, 1.39e-4, 0.0, 0.0, 0.0, 0.0, 0.0, 
+#  HOOH_grp_Phi(:)=0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 
 #  HOOH_grp_detox_cost(:)=1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
+# HOOH production / Save pro
+  HOOH_grp_Kdam(:)=0.0, 0.0, 0.0, 6.4e-5, 0.0, 0.0, 0.0, 0.0,
+  HOOH_grp_Phi(:)=0.0, 0.0, 1.39e-4, 0.0, 0.0, 0.0, 0.0, 0.0, 
+  HOOH_grp_detox_cost(:)=1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0,
 #
  /

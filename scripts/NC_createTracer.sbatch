@@ -85,7 +85,7 @@ if [ "$process_gud" = true ]; then
                        # "TRAC51" "TRAC52" "TRAC53" "TRAC54" "TRAC55" \
                        # "TRAC56" "TRAC57" "TRAC58" "TRAC59" "TRAC60" \
     	                "UTK_holl" "UTK_2ZPP" "UTK_C" "UTK_D" "P_HOOH" \
-                        "PAR01" "PP" "BP")
+                        "PAR" "PP")
     
     
     
